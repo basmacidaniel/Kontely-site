@@ -35,3 +35,12 @@ h1,h2,h3{margin-top:0}.hero h1{max-width:960px;font-size:clamp(52px,7vw,86px);li
   .mobile-menu .mobile-demo{color:#06110e;background:linear-gradient(135deg,var(--green),var(--lime));padding:12px 14px;border-radius:12px;margin-top:10px;text-align:center}
   .menu-btn{min-width:42px;font-size:20px;line-height:1}
 }
+
+/* Premium polish */
+::selection{background:rgba(120,242,189,.25);color:#fff}
+a,button{-webkit-tap-highlight-color:transparent}.btn:focus-visible,.navcta:focus-visible,.menu-btn:focus-visible,.demo-tab:focus-visible,.faq-q:focus-visible,a:focus-visible{outline:2px solid var(--green);outline-offset:3px}
+.hero-proof{display:flex;flex-wrap:wrap;gap:10px;margin-top:20px}.hero-proof span{display:flex;align-items:center;gap:8px;padding:9px 12px;border:1px solid rgba(120,242,189,.14);border-radius:999px;background:rgba(13,28,24,.62);color:#b8c9c2;font-size:12px}.hero-proof b{color:var(--green);font-size:11px;letter-spacing:.08em}
+.card,.price,.step,.page-card,.metric,.node{box-shadow:inset 0 1px 0 rgba(255,255,255,.025)}
+.navcta,.btn,.menu-btn,.demo-tab{transition:transform .18s ease,border-color .18s ease,background .18s ease,opacity .18s ease}.navcta:hover{border-color:#315548}.navcta.primary:hover,.btn.primary:hover{filter:brightness(1.04)}
+@media(max-width:560px){.hero{padding-top:46px}.hero h1{font-size:clamp(42px,12.4vw,52px);line-height:1.01}.hero.compact h1{font-size:clamp(40px,11.5vw,49px)}.trustline{margin-top:32px}.hero-proof{gap:7px}.hero-proof span{width:100%;border-radius:12px}.demo{margin-top:38px}.section h2{font-size:clamp(34px,10vw,44px)}.amount{font-size:38px}}
+@media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
