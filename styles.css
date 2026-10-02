@@ -44,3 +44,10 @@ a,button{-webkit-tap-highlight-color:transparent}.btn:focus-visible,.navcta:focu
 .navcta,.btn,.menu-btn,.demo-tab{transition:transform .18s ease,border-color .18s ease,background .18s ease,opacity .18s ease}.navcta:hover{border-color:#315548}.navcta.primary:hover,.btn.primary:hover{filter:brightness(1.04)}
 @media(max-width:560px){.hero{padding-top:46px}.hero h1{font-size:clamp(42px,12.4vw,52px);line-height:1.01}.hero.compact h1{font-size:clamp(40px,11.5vw,49px)}.trustline{margin-top:32px}.hero-proof{gap:7px}.hero-proof span{width:100%;border-radius:12px}.demo{margin-top:38px}.section h2{font-size:clamp(34px,10vw,44px)}.amount{font-size:38px}}
 @media(prefers-reduced-motion:reduce){html{scroll-behavior:auto}*,*:before,*:after{transition:none!important}}
+
+/* Mobile hero proof layout fix */
+@media(max-width:560px){
+  .hero-proof{display:grid;grid-template-columns:1fr;gap:8px;margin-top:18px}
+  .hero-proof span{display:grid;grid-template-columns:34px 1fr;align-items:center;gap:8px;width:100%;padding:11px 13px;border-radius:12px;line-height:1.35}
+  .hero-proof b{display:block;font-size:11px;letter-spacing:.08em}
+}
