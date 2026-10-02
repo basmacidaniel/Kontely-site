@@ -62,3 +62,7 @@ a,button{-webkit-tap-highlight-color:transparent}.btn:focus-visible,.navcta:focu
 .eyebrow{max-width:min(100%,620px);padding:6px 10px;border-radius:10px;font-size:12px;line-height:1.25;letter-spacing:.035em;font-weight:700;color:#aebfb8;background:rgba(255,255,255,.012);border-color:rgba(120,242,189,.16)}
 .hero>.wrap>.eyebrow{border-radius:999px}
 @media(max-width:560px){.eyebrow{max-width:100%;font-size:11px;padding:6px 9px;letter-spacing:.025em}.hero>.wrap>.eyebrow{border-radius:999px}}
+
+/* Section label sizing balance */
+.eyebrow{font-size:14px;padding:8px 14px;line-height:1.25;letter-spacing:.02em;font-weight:700;border-radius:12px}
+@media(max-width:560px){.eyebrow{font-size:13px;padding:7px 12px}}
